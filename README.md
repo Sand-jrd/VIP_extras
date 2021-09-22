@@ -10,23 +10,30 @@
 
 Tutorials in form of Jupyter notebooks can be found in the `tutorials/` folder. They can be visualized directly here on GitHub (by just clicking on them), or using the nbviewer service.
 
-### 01. Main Tutorial
+### 01. Main Tutorial (part I)
 
-> [GitHub](./tutorials/01_adi_pre-postproc_fluxpos_ccs.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01_adi_pre-postproc_fluxpos_ccs.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01_adi_pre-postproc_fluxpos_ccs.ipynb)
+> [GitHub](./tutorials/01_adi_pre-postproc.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01_adi_pre-postproc.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01_adi_pre-postproc.ipynb)
 
-This tutorial covers most of the things VIP can do:
+This tutorial covers:
 
 - loading datasets
-- pre-processing
+- pre-processing, including image rotation
+- S/N ratio, maps, significance, STIM maps
 - post-processing with ADI algorithms (Median subtraction, PCA, LLSG, ...)
+
+### 02. Main Tutorial (part II)
+
+> [GitHub](./tutorials/02_adi_negfc_cc.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/02_adi_negfc_cc.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F02_adi_negfc_cc.ipynb)
+
+This tutorial covers:
+
 - fake planet injection
-- flux estimation (NEGFC)
-- contrast curves, S/N maps
+- flux and position estimation for companion candidates (NEGFC)
+- throughput, contrast curves
 
+### 03. Using HCIDataset objects
 
-### 02. Using HCIDataset objects
-
-> [GitHub](./tutorials/02_hcidataset.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/02_hcidataset.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F02_hcidataset.ipynb)
+> [GitHub](./tutorials/03_hcidataset.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03_hcidataset.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03_hcidataset.ipynb)
 
 This tutorial shows how VIP's `HCIDataset` can be used for simple object-oriented access to all dataset related operations. It covers:
 
