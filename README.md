@@ -40,6 +40,16 @@ This tutorial shows how VIP's `HCIDataset` can be used for simple object-oriente
 - loading/saving datasets
 - simple operations (plotting, pre-processing, injecting)
 
+### 04. Disk modelling Tutorial
+
+> [GitHub](./tutorials/04_disk_modelling.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/04_disk_modelling.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F04_disk_modelling.ipynb)
+
+This tutorial covers:
+
+- overview and parameterisation of dust density distribution
+- examples of disk models
+- forward modelling of disks
+
 
 
 
@@ -50,3 +60,7 @@ The datasets in the `datasets/` folder are available in FITS format, and VIP's o
 ### NACO betapic
 
 Small ADI cube with 39 frames. `naco_betapic.npz` contains just the "raw" data (`cube`, `psf`, `angles`, `px_scale`), while `naco_betapic_preproc.npz` is slightly preprocessed (cropped, psf normalized).
+
+### SPHERE v471tau
+
+ADI+IFS (4D) cube, ideal to test both ADI and SDI functionalities. The cube, psf images, derotation angles and wavelength vector are provided.
