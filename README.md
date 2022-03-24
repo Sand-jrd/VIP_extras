@@ -26,7 +26,7 @@ This tutorial covers:
 
 This tutorial showcases the pre-processing routines available routines in VIP (i.e. how to prepare a datacube before PSF modeling and subtraction). More specifically, the tutorial shows how to carry out the following tasks:
 
-- recentering of a NACO L' coronagraphic dataset;
+- recentering of a NACO L' coronagraphic dataset and trimming bad frames out;
 - correcting bad pixels and recentering a SPHERE/IFS coronagraphic dataset; 
 - performing a "full pre-processing" of a non-coronagraphic SINFONI dataset.
 
