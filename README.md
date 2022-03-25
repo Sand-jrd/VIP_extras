@@ -33,7 +33,7 @@ This tutorial showcases the pre-processing routines available routines in VIP (i
 
 ### 03. PSF modeling and subtraction Tutorial
 
-> [GitHub](./tutorials/03_hcidataset.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03_psfsub.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03_psfsub.ipynb)
+> [GitHub](./tutorials/03_psfsub.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03_psfsub.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03_psfsub.ipynb)
 
 This tutorial covers:
 
