@@ -33,4 +33,7 @@ htmlcov/
 
 # scripts
 _pypi.sh
-_sphinx.sh
+_sphinx.s
+
+# tutorials
+*.ipynb_checkpoints

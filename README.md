@@ -74,9 +74,20 @@ This tutorial covers:
 - how to inject model disks in ADI cubes, for forward modeling.
 
 
-### 07. FFT-based vs. interpolation-based image operations Tutorial
+### 07. IFS+ADI PSF subtraction and forward modeling Tutorial
 
-> [GitHub](./tutorials/07_imlib_and_interpolation.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/07_imlib_and_interpolation.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F07_imlib_and_interpolation.ipynb)
+> [GitHub](./tutorials/07_ifs_psfsub_fm_planets.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/07_ifs_psfsub_fm_planets.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F07_ifs_psfsub_fm_planets.ipynb)
+
+This tutorial covers:
+
+- how to inject a planet spectrum in a 4D (IFS+ADI) datacube;
+- how to post-process 4D (IFS+ADI) datacubes; 
+- how to retrieve the parameters of a planet present in a 4D (IFS+ADI) datacube (astro- and spectrometry).
+
+
+### 08. FFT-based vs. interpolation-based image operations Tutorial
+
+> [GitHub](./tutorials/08_imlib_and_interpolation.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/08_imlib_and_interpolation.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F08_imlib_and_interpolation.ipynb)
 
 This tutorial shows a quantitative comparison between FFT-based and interpolation-based methods for:
 
@@ -85,9 +96,9 @@ This tutorial shows a quantitative comparison between FFT-based and interpolatio
 - sub-px shifts.
 
 
-### 08. Dataset Objects Tutorial
+### 09. Dataset Objects Tutorial
 
-> [GitHub](./tutorials/08_datasets_as_objects.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/08_datasets_as_objects.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F08_datasets_as_objects.ipynb)
+> [GitHub](./tutorials/09_datasets_as_objects.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/09_datasets_as_objects.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F09_datasets_as_objects.ipynb)
 
 This tutorial gives an overview of the new *object oriented* way of using VIP.
 
