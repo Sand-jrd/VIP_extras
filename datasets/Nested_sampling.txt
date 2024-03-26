@@ -1,0 +1,12 @@
+#################################
+####   CONFIDENCE INTERVALS   ###
+#################################
+ 
+Results of the NESTED SAMPLING fit
+----------------------------------
+  
+
+Weighted mean +- sqrt(covariance)
+Radius = 30.479 +/- 0.064
+Theta = 240.006 +/- 0.071
+Flux = 407.892 +/- 9.386
