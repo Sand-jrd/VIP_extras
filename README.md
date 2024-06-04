@@ -33,12 +33,32 @@ This tutorial showcases the pre-processing routines available routines in VIP (i
 
 ### 03. PSF modeling and subtraction Tutorial
 
-> [GitHub](./tutorials/03_psfsub.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03_psfsub.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03_psfsub.ipynb)
+#### A. ADI
+
+> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03A_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
 
 This tutorial covers:
 
 - how to load ADI-ready datacubes; 
 - how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images (more details and higher completeness than the quick-start tutorial).
+
+#### B. ADI (object-oriented version)
+
+> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03A_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
+
+This tutorial covers:
+
+- how to load ADI-ready datacubes; 
+- how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images (more details and higher completeness than the quick-start tutorial).
+
+#### C. RDI
+
+> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03A_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
+
+This tutorial covers:
+
+- how to load ADI-ready datacubes; 
+- how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images of disks or leveraging the RDI strategy.
 
 
 ### 04. Metrics Tutorial
@@ -54,9 +74,9 @@ This tutorial covers:
 - how to compute throughput and contrast curves.
 
 
-### 05. Forward modeling of point sources Tutorial
+### 05A. Forward modeling of point sources Tutorial
 
-> [GitHub](./tutorials/05_fm_planets.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/05_fm_planets.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F05_fm_planets.ipynb)
+> [GitHub](./tutorials/05A_fm_planets.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/05A_fm_planets.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F05A_fm_planets.ipynb)
 
 This tutorial covers:
 
@@ -66,7 +86,7 @@ This tutorial covers:
 
 ### 06. Forward modeling of disk Tutorial
 
-> [GitHub](./tutorials/06_fm_disk.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/06_fm_disk.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F06_fm_disk.ipynb)
+> [GitHub](./tutorials/05B_fm_disk.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/05B_fm_disk.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F05B_fm_disk.ipynb)
 
 This tutorial covers:
 
