@@ -14,11 +14,11 @@ Tutorials in form of Jupyter notebooks can be found in the `tutorials/` folder. 
 
 #### A. Serial version
 
-> [GitHub](./tutorials/01_quickstart.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01A_quickstart.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01A_quickstart.ipynb)
+> [GitHub](./tutorials/01A_quickstart.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01A_quickstart.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01A_quickstart.ipynb)
 
 #### B. Object-oriented version
 
-> [GitHub](./tutorials/01_quickstart.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01B_quickstart_with_objects.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01B_quickstart_with_objects.ipynb)
+> [GitHub](./tutorials/01B_quickstart_with_objects.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01B_quickstart_with_objects.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01B_quickstart_with_objects.ipynb)
 
 This tutorial covers:
 
@@ -51,7 +51,7 @@ This tutorial covers:
 
 #### B. Object-oriented version
 
-> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03B_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
+> [GitHub](./tutorials/03B_psfsub_ADI_as_objects.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03B_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
 
 This tutorial covers:
 
@@ -84,7 +84,7 @@ This tutorial covers:
 
 ### 05B. Forward modeling of disk Tutorial
 
-> [GitHub](./tutorials/05B_fm_disk.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/05B_fm_disk.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F05B_fm_disk.ipynb)
+> [GitHub](./tutorials/05B_fm_disks.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/05B_fm_disks.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F05B_fm_disks.ipynb)
 
 This tutorial covers:
 
@@ -94,7 +94,7 @@ This tutorial covers:
 
 ### 06. RDI PSF subtraction and forward modeling
 
-> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/06_psfsub_fm_RDI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F06_psfsub_fm_RDI.ipynb)
+> [GitHub](./tutorials/06_psfsub_fm_RDI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/06_psfsub_fm_RDI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F06_psfsub_fm_RDI.ipynb)
 
 This tutorial covers:
 
@@ -103,7 +103,7 @@ This tutorial covers:
 
 ### 07. IFS+ADI PSF subtraction and forward modeling Tutorial
 
-> [GitHub](./tutorials/07_ifs_psfsub_fm_planets.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/07_ifs_psfsub_fm_planets.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F07_ifs_psfsub_fm_planets.ipynb)
+> [GitHub](./tutorials/07_psfsub_fm_IFS-ASDI_planets.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/07_psfsub_fm_IFS-ASDIplanets.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F07_ifs_psfsub_fm_planets.ipynb)
 
 This tutorial covers:
 
