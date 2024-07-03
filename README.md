@@ -12,12 +12,19 @@ Tutorials in form of Jupyter notebooks can be found in the `tutorials/` folder. 
 
 ### 01. Quick-start Tutorial
 
-> [GitHub](./tutorials/01_quickstart.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01_quickstart.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01_quickstart.ipynb)
+#### A. Serial version
+
+> [GitHub](./tutorials/01_quickstart.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01A_quickstart.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01A_quickstart.ipynb)
+
+#### B. Object-oriented version
+
+> [GitHub](./tutorials/01_quickstart.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/01B_quickstart_with_objects.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F01B_quickstart_with_objects.ipynb)
 
 This tutorial covers:
 
 - how to load ADI-ready datacubes; 
 - how to use some of the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images.
+
 
 
 ### 02. Pre-processing Tutorial
@@ -31,18 +38,9 @@ This tutorial showcases the pre-processing routines available routines in VIP (i
 - performing a "full pre-processing" of a non-coronagraphic SINFONI dataset.
 
 
-### 03. PSF modeling and subtraction Tutorial
+### 03. PSF modeling and subtraction with ADI Tutorial
 
-#### A. ADI
-
-> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03A_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
-
-This tutorial covers:
-
-- how to load ADI-ready datacubes; 
-- how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images (more details and higher completeness than the quick-start tutorial).
-
-#### B. ADI (object-oriented version)
+#### A. Serial version
 
 > [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03A_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
 
@@ -51,14 +49,14 @@ This tutorial covers:
 - how to load ADI-ready datacubes; 
 - how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images (more details and higher completeness than the quick-start tutorial).
 
-#### C. RDI
+#### B. Object-oriented version
 
-> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03A_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
+> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/03B_psfsub_ADI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F03A_psfsub_ADI.ipynb)
 
 This tutorial covers:
 
 - how to load ADI-ready datacubes; 
-- how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images of disks or leveraging the RDI strategy.
+- how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images (more details and higher completeness than the quick-start tutorial).
 
 
 ### 04. Metrics Tutorial
@@ -84,7 +82,7 @@ This tutorial covers:
 - how to estimate the astrometry and photometry of a directly imaged companion, and associated uncertainties.
 
 
-### 06. Forward modeling of disk Tutorial
+### 05B. Forward modeling of disk Tutorial
 
 > [GitHub](./tutorials/05B_fm_disk.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/05B_fm_disk.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F05B_fm_disk.ipynb)
 
@@ -93,6 +91,15 @@ This tutorial covers:
 - how to generate different models of synthetic (debris) disks;
 - how to inject model disks in ADI cubes, for forward modeling.
 
+
+### 06. RDI PSF subtraction and forward modeling
+
+> [GitHub](./tutorials/03A_psfsub_ADI.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/vortex-exoplanet/VIP_extras/blob/master/tutorials/06_psfsub_fm_RDI.ipynb) / [binder](https://mybinder.org/v2/gh/vortex-exoplanet/VIP_extras/master?filepath=tutorials%2F06_psfsub_fm_RDI.ipynb)
+
+This tutorial covers:
+
+- how to load ADI and reference datacubes; 
+- how to use the stellar PSF subtraction algorithms implemented in VIP to produce final post-processed images of disks or leveraging the RDI strategy.
 
 ### 07. IFS+ADI PSF subtraction and forward modeling Tutorial
 
